@@ -38,13 +38,13 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         // Check if Left Shift is held down
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            speed = 10f;
+            speed = speed * 2;
         }
-        else
+        if (Input.GetKeyUp(KeyCode.LeftShift))
         {
-            speed = 5f;
+            speed = speed / 2;
         }
 
 
