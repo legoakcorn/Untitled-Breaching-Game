@@ -18,6 +18,10 @@ public class InteractionManager : MonoBehaviour
         {
             _currentInteractable.Interact();
         }
+        if (_currentInteractable != null && Input.GetKeyDown(KeyCode.R))
+        {
+            _currentInteractable.Interact();
+        }
     }
 
     private void CheckForInteractable()
