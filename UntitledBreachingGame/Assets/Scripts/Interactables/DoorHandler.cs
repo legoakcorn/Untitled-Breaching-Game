@@ -20,7 +20,13 @@ public class DoorHandler : MonoBehaviour, IInteractable
     // Update is called once per frame
     public void Interact()
     {
-        StartCoroutine(ToggleDoor());   
+        StartCoroutine(ToggleDoor());
+        
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            StartCoroutine(ToggleDoor());
+            Destroy(gameObject);
+        } 
     }
 
     private IEnumerator ToggleDoor()
