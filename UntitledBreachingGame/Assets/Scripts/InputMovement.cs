@@ -6,6 +6,7 @@ public class InputMovement : MonoBehaviour
     private PlayerInput playerInput;
     public PlayerInput.PlayerActions player;
 
+    public static bool Freeze;
     private PlayerMovement motor;
     private PlayerLook look;
     private void Awake()
@@ -20,10 +21,19 @@ public class InputMovement : MonoBehaviour
     }
     private void Update()
     {
-        motor.ProcessMove(player.Movement.ReadValue<Vector2>());
+        if (Freeze)
+        {
+            return;
+        }
+        
+            motor.ProcessMove(player.Movement.ReadValue<Vector2>());
     }
     private void LateUpdate()
     {
+        if (Freeze)
+        {
+            return;
+        }
         look.ProcessLook(player.Look.ReadValue<Vector2>());
     }
 
