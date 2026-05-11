@@ -18,7 +18,7 @@ public class InteractionManager : MonoBehaviour
         {
             _currentInteractable.Interact();
         }
-        if (_currentInteractable != null && Input.GetKeyDown(KeyCode.R))
+        if (_currentInteractable != null && Input.GetKeyDown(KeyCode.Q))
         {
             _currentInteractable.Interact();
         }

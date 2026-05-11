@@ -7,6 +7,8 @@ public class Weapon : MonoBehaviour
 {
     public Camera playerCamera;
 
+    [SerializeField] private ParticleSystem muzzleFlash;
+
     public bool isShooting, readyToShoot;
     bool allowReset = true;
     public float shootingDelay = 2f;
@@ -84,7 +86,10 @@ public class Weapon : MonoBehaviour
         {
             AmmoManager.Instance.ammoDisplay.text = $"{bulletsLeft / bulletsPerBurst}/{magazineSize / bulletsPerBurst}";
         }
-
+        if (isShooting == true) 
+        {
+            muzzleFlash.Play();
+        }
     }
 
     private void FireWeapon()
