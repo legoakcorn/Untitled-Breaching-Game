@@ -86,10 +86,6 @@ public class Weapon : MonoBehaviour
         {
             AmmoManager.Instance.ammoDisplay.text = $"{bulletsLeft / bulletsPerBurst}/{magazineSize / bulletsPerBurst}";
         }
-        if (isShooting == true) 
-        {
-            muzzleFlash.Play();
-        }
     }
 
     private void FireWeapon()
@@ -104,6 +100,8 @@ public class Weapon : MonoBehaviour
 
         bullet.GetComponent<Rigidbody>().AddForce(bulletSpawn.forward.normalized * bulletVelocity, ForceMode.Impulse);
         StartCoroutine(DestroyBulletAfterTime(bullet, bulletPrefabLifeTime));
+
+        muzzleFlash.Play();
 
         bulletsLeft--;
 
