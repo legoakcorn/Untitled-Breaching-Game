@@ -31,9 +31,11 @@ public class Weapon : MonoBehaviour
     public Vector3 spawnPosition;
     public Vector3 spawnRotation;
 
+    private Animator animator;
+
     public enum WeaponModel
     {
-        Musket,
+        Rifle,
         Pistol,
     }
 
@@ -54,6 +56,7 @@ public class Weapon : MonoBehaviour
         burstBulletsLeft = bulletsPerBurst;
 
         bulletsLeft = magazineSize;
+        animator = GetComponent<Animator>();
     }
     void Update()
     {
@@ -90,6 +93,7 @@ public class Weapon : MonoBehaviour
 
     private void FireWeapon()
     {
+        animator.SetTrigger("Recoil");
         readyToShoot = false;
 
         Vector3 shootingDirection = CalculateDirectionAndSpread().normalized;
