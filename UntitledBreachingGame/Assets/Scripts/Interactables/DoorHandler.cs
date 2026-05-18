@@ -7,12 +7,12 @@ public class DoorInteraction : MonoBehaviour, IInteractable
     [SerializeField] float openAngle = 90f;
     [SerializeField] float openSpeed = 2f;
     [SerializeField] bool isOpen = false;
-
+    
     private Quaternion _closedRotation;
     private Quaternion _openRotation;
     private Coroutine _currentCoroutine;
 
-
+    
     void Start()
     {
         _closedRotation = transform.rotation;
@@ -26,6 +26,7 @@ public class DoorInteraction : MonoBehaviour, IInteractable
         if (Input.GetKeyDown(KeyCode.Q))
         {
             Destroy(gameObject);
+
         }
     }
 
