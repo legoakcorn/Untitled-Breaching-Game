@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Spinner2 : MonoBehaviour
 {
-    [SerializeField] public float rotationSpeed = 100f;
+    [SerializeField] public static float rotationSpeed = 100f;
     void Update()
     {
         // Rotates the object around the Y-axis (up)
