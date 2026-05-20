@@ -55,6 +55,9 @@
         <xs:attribute default="" name="name" type="xs:string" use="optional" />
         <xs:attribute default="true" name="enabled" type="xs:boolean" use="optional" />
 <<<<<<< HEAD
+        <xs:attribute default="431ac427-8dc9-425c-b7cf-e9f8d9ccfc02" name="view-data-key" type="xs:string" use="optional" />
+=======
+<<<<<<< HEAD
         <xs:attribute default="8f6baa8f-d051-4362-8889-d5c586300d2d" name="view-data-key" type="xs:string" use="optional" />
 =======
 <<<<<<< Updated upstream
@@ -62,6 +65,7 @@
 =======
         <xs:attribute default="64172aa5-150b-45c8-9654-664a9861e2c5" name="view-data-key" type="xs:string" use="optional" />
 >>>>>>> Stashed changes
+>>>>>>> main
 >>>>>>> main
         <xs:attribute default="Position" name="picking-mode" type="engine:VisualElement_picking-mode_Type" use="optional" />
         <xs:attribute default="" name="tooltip" type="xs:string" use="optional" />
