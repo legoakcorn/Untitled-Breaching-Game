@@ -11,5 +11,11 @@ public class Bullet : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            print("hit " + collision.gameObject.name + " !");
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
     }
 }
