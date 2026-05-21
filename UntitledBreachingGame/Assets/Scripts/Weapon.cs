@@ -33,6 +33,7 @@ public class Weapon : MonoBehaviour
 
     private Animator animator;
 
+
     public enum WeaponModel
     {
         Rifle,
@@ -45,7 +46,7 @@ public class Weapon : MonoBehaviour
     {
         Single,
         Burst,
-        Auto
+        Auto,
     }
 
     public ShootingMode currentShootingMode;
@@ -90,7 +91,6 @@ public class Weapon : MonoBehaviour
             AmmoManager.Instance.ammoDisplay.text = $"{bulletsLeft / bulletsPerBurst}/{magazineSize / bulletsPerBurst}";
         }
 
-        
     }
 
     private void FireWeapon()
