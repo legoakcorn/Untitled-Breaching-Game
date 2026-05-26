@@ -20,6 +20,7 @@ public class CutsceneStartScript : MonoBehaviour
         GetComponent<MenuCanvasScript>().Mission3Folder.SetActive(false);
         GetComponent<MenuCanvasScript>().SecertMissionFolder.SetActive(false);
         isFlying = true;
+        Invoke(nameof(Unstuck), 5f);
 
     }
 
@@ -29,5 +30,10 @@ public class CutsceneStartScript : MonoBehaviour
         {
             Heli.transform.Translate(new Vector3(0f, speed / 2 * Time.deltaTime, speed * Time.deltaTime));
         }
+    }
+
+    private void Unstuck()
+    {
+        InputMovement.Freeze = false;
     }
 }
