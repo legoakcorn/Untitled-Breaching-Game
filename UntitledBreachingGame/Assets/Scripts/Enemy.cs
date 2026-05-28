@@ -4,6 +4,8 @@ using UnityEngine.AI;
 using UnityEngine.UIElements;
 public class Enemy : MonoBehaviour
 {
+    [SerializeField] private float ShootDelayOnSee = 0.3f;
+
     [Header("References")]
     [SerializeField] private NavMeshAgent navAgent;
     [SerializeField] private Transform playerTransform;
@@ -144,7 +146,7 @@ public class Enemy : MonoBehaviour
         }
         if (isPlayerVisible && isPlayerInRange)
         {
-            PerformAttack();
+            Invoke(nameof(PerformAttack), ShootDelayOnSee);
         }
     }
 }
