@@ -12,6 +12,11 @@ public class FinalCutscene : MonoBehaviour
     private bool PewieMove;
     private bool isFlyingForward;
 
+    private void Start()
+    {
+        FlyAway();
+    }
+
     public void FlyAway()
     {
         Spinner.rotationSpeed = 2000f;
