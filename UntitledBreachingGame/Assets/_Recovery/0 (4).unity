@@ -220,8 +220,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &3488437
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -316,7 +316,7 @@ Transform:
   m_Children:
   - {fileID: 590674453}
   - {fileID: 1857853006}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &5592818
 PrefabInstance:
@@ -1749,8 +1749,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &65136397
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1845,7 +1845,7 @@ Transform:
   m_Children:
   - {fileID: 1538699866}
   - {fileID: 1007908140}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &70338123
 PrefabInstance:
@@ -2187,74 +2187,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82661199}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &85911394
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 85911395}
-  m_Layer: 0
-  m_Name: Enemys
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &85911395
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 85911394}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1732605646}
-  - {fileID: 1685998726}
-  - {fileID: 1391569368}
-  - {fileID: 1787617367}
-  - {fileID: 190043810}
-  - {fileID: 741428905}
-  - {fileID: 834269671}
-  - {fileID: 384940735}
-  - {fileID: 1140795089}
-  - {fileID: 1752854702}
-  - {fileID: 65136400}
-  - {fileID: 1175367207}
-  - {fileID: 802017342}
-  - {fileID: 766381225}
-  - {fileID: 723097928}
-  - {fileID: 2141064620}
-  - {fileID: 521832215}
-  - {fileID: 534609641}
-  - {fileID: 781118682}
-  - {fileID: 1295505617}
-  - {fileID: 1790258140}
-  - {fileID: 1063490633}
-  - {fileID: 3488440}
-  - {fileID: 96678150}
-  - {fileID: 1215931618}
-  - {fileID: 1295587707}
-  - {fileID: 1759290384}
-  - {fileID: 656917140}
-  - {fileID: 334042937}
-  - {fileID: 1890202487}
-  - {fileID: 942438567}
-  - {fileID: 1397457532}
-  - {fileID: 1879870663}
-  - {fileID: 281848791}
-  - {fileID: 1232258407}
-  - {fileID: 852909638}
-  - {fileID: 1507910463}
-  m_Father: {fileID: 1752382572}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &87014019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2434,8 +2366,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &96678147
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2530,7 +2462,7 @@ Transform:
   m_Children:
   - {fileID: 99561880}
   - {fileID: 2061626994}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &99561879
 GameObject:
@@ -5100,8 +5032,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &190043807
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5196,7 +5128,7 @@ Transform:
   m_Children:
   - {fileID: 1290730298}
   - {fileID: 1764399515}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &191166896
 GameObject:
@@ -7793,8 +7725,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &281848788
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7889,7 +7821,7 @@ Transform:
   m_Children:
   - {fileID: 797576605}
   - {fileID: 13002447}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &283689938
 GameObject:
@@ -9113,8 +9045,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &334042934
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9209,7 +9141,7 @@ Transform:
   m_Children:
   - {fileID: 104286339}
   - {fileID: 1908920644}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &353990973
 PrefabInstance:
@@ -10029,8 +9961,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &384940732
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10125,7 +10057,7 @@ Transform:
   m_Children:
   - {fileID: 197809966}
   - {fileID: 353990974}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &386000499
 PrefabInstance:
@@ -12825,8 +12757,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &521832212
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12921,7 +12853,7 @@ Transform:
   m_Children:
   - {fileID: 188760140}
   - {fileID: 1433399796}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &522658989
 PrefabInstance:
@@ -13399,8 +13331,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &534609638
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13495,7 +13427,7 @@ Transform:
   m_Children:
   - {fileID: 1177238349}
   - {fileID: 1564024781}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &534804402
 GameObject:
@@ -16614,8 +16546,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &656917137
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16710,7 +16642,7 @@ Transform:
   m_Children:
   - {fileID: 861367773}
   - {fileID: 705901398}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &670192438
 PrefabInstance:
@@ -17585,8 +17517,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &723097925
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -17681,7 +17613,7 @@ Transform:
   m_Children:
   - {fileID: 575854195}
   - {fileID: 2013493338}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &724814848
 PrefabInstance:
@@ -18119,8 +18051,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &741428902
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18215,7 +18147,7 @@ Transform:
   m_Children:
   - {fileID: 1973098296}
   - {fileID: 535365928}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &743605102
 GameObject:
@@ -18804,8 +18736,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &766381222
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18900,7 +18832,7 @@ Transform:
   m_Children:
   - {fileID: 1215923197}
   - {fileID: 1834082283}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &766865559
 GameObject:
@@ -19158,37 +19090,6 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
---- !u!1 &775353380
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 775353381}
-  m_Layer: 0
-  m_Name: FinalCutscene
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &775353381
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775353380}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &776268483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19333,8 +19234,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &781118679
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -19429,7 +19330,7 @@ Transform:
   m_Children:
   - {fileID: 1826558516}
   - {fileID: 1252309292}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &782001382
 PrefabInstance:
@@ -20500,8 +20401,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &802017339
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -20596,7 +20497,7 @@ Transform:
   m_Children:
   - {fileID: 454587126}
   - {fileID: 1201363931}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &805678510
 PrefabInstance:
@@ -21514,8 +21415,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &834269668
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -21610,7 +21511,7 @@ Transform:
   m_Children:
   - {fileID: 923668106}
   - {fileID: 839183513}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!64 &834468754
 MeshCollider:
@@ -22153,8 +22054,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &852909635
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -22249,7 +22150,7 @@ Transform:
   m_Children:
   - {fileID: 391447962}
   - {fileID: 1664540448}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &853380722
 PrefabInstance:
@@ -24466,8 +24367,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &942438564
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -24562,7 +24463,7 @@ Transform:
   m_Children:
   - {fileID: 2147309259}
   - {fileID: 319454414}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &942782399
 GameObject:
@@ -25669,7 +25570,7 @@ Transform:
   m_GameObject: {fileID: 984414403}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 415.7, y: 53.32, z: 414.64}
+  m_LocalPosition: {x: 415.7, y: 1.68, z: 453.04}
   m_LocalScale: {x: 1.7907641, y: 1.7907641, z: 1.7907641}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27788,8 +27689,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1063490630
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -27884,7 +27785,7 @@ Transform:
   m_Children:
   - {fileID: 1140615602}
   - {fileID: 589731223}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1065163976
 GameObject:
@@ -28983,6 +28884,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: e731a1ac8914e2548ae80adaba4759b1, type: 3}
+--- !u!114 &1102173501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102173499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a07d8058a5da4f44bafb001c2f57c53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FinalCutscene
+  MainCam: {fileID: 0}
+  PewieCam: {fileID: 0}
+  Heli: {fileID: 1102173499}
+  Pewie: {fileID: 0}
+  speed: 6.81
+  Pspeed: 4.68
 --- !u!4 &1102173505 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: e731a1ac8914e2548ae80adaba4759b1, type: 3}
@@ -29997,8 +29916,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1140795086
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -30093,7 +30012,7 @@ Transform:
   m_Children:
   - {fileID: 766865560}
   - {fileID: 1116112503}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1142906786
 PrefabInstance:
@@ -30945,8 +30864,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1175367204
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -31041,7 +30960,7 @@ Transform:
   m_Children:
   - {fileID: 1122808704}
   - {fileID: 1597054757}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1177152928
 GameObject:
@@ -32331,8 +32250,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1215931615
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -32427,7 +32346,7 @@ Transform:
   m_Children:
   - {fileID: 3437251}
   - {fileID: 1230759317}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1217790598
 PrefabInstance:
@@ -33504,8 +33423,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1232258404
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -33600,7 +33519,7 @@ Transform:
   m_Children:
   - {fileID: 283689939}
   - {fileID: 495657609}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1232625659
 PrefabInstance:
@@ -33869,6 +33788,9 @@ PrefabInstance:
       insertIndex: 0
       addedObject: {fileID: 2106374142}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: e731a1ac8914e2548ae80adaba4759b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1102173501}
     - targetCorrespondingSourceObject: {fileID: 100002, guid: e731a1ac8914e2548ae80adaba4759b1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1102173500}
@@ -35555,8 +35477,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1295505614
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -35651,7 +35573,7 @@ Transform:
   m_Children:
   - {fileID: 1831239998}
   - {fileID: 1075859869}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1295587701
 GameObject:
@@ -35723,8 +35645,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1295587704
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -35819,7 +35741,7 @@ Transform:
   m_Children:
   - {fileID: 1158198404}
   - {fileID: 106525142}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1314356492
 PrefabInstance:
@@ -37499,8 +37421,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1391569365
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -37595,7 +37517,7 @@ Transform:
   m_Children:
   - {fileID: 1778235271}
   - {fileID: 584159044}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1393790036
 PrefabInstance:
@@ -37741,8 +37663,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1397457529
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -37837,7 +37759,7 @@ Transform:
   m_Children:
   - {fileID: 743605103}
   - {fileID: 1464961998}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1404839081
 PrefabInstance:
@@ -41064,8 +40986,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1507910460
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -41160,7 +41082,7 @@ Transform:
   m_Children:
   - {fileID: 2003158226}
   - {fileID: 1860016753}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1508101803 stripped
 GameObject:
@@ -44373,8 +44295,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1685998723
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -44469,7 +44391,7 @@ Transform:
   m_Children:
   - {fileID: 950400824}
   - {fileID: 1973815824}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1691256469
 PrefabInstance:
@@ -45870,8 +45792,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1732605643
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -45966,7 +45888,7 @@ Transform:
   m_Children:
   - {fileID: 1660992546}
   - {fileID: 1224584041}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1732843729
 PrefabInstance:
@@ -46729,7 +46651,43 @@ Transform:
   - {fileID: 5592819}
   - {fileID: 2079876380}
   - {fileID: 128334381}
-  - {fileID: 85911395}
+  - {fileID: 1732605646}
+  - {fileID: 1685998726}
+  - {fileID: 1391569368}
+  - {fileID: 1787617367}
+  - {fileID: 190043810}
+  - {fileID: 741428905}
+  - {fileID: 834269671}
+  - {fileID: 384940735}
+  - {fileID: 1140795089}
+  - {fileID: 1752854702}
+  - {fileID: 65136400}
+  - {fileID: 1175367207}
+  - {fileID: 802017342}
+  - {fileID: 766381225}
+  - {fileID: 723097928}
+  - {fileID: 2141064620}
+  - {fileID: 521832215}
+  - {fileID: 534609641}
+  - {fileID: 781118682}
+  - {fileID: 1295505617}
+  - {fileID: 1790258140}
+  - {fileID: 1063490633}
+  - {fileID: 3488440}
+  - {fileID: 96678150}
+  - {fileID: 1215931618}
+  - {fileID: 1295587707}
+  - {fileID: 1759290384}
+  - {fileID: 656917140}
+  - {fileID: 334042937}
+  - {fileID: 1890202487}
+  - {fileID: 942438567}
+  - {fileID: 1397457532}
+  - {fileID: 1879870663}
+  - {fileID: 281848791}
+  - {fileID: 1232258407}
+  - {fileID: 852909638}
+  - {fileID: 1507910463}
   - {fileID: 1613386281}
   - {fileID: 1528824696}
   - {fileID: 681085228}
@@ -46832,8 +46790,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1752854699
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -46928,7 +46886,7 @@ Transform:
   m_Children:
   - {fileID: 1328169364}
   - {fileID: 1600017357}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1755166185
 PrefabInstance:
@@ -47148,8 +47106,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1759290381
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -47244,7 +47202,7 @@ Transform:
   m_Children:
   - {fileID: 1410564812}
   - {fileID: 1782570703}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1760670288
 GameObject:
@@ -47879,8 +47837,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1787617364
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -47975,7 +47933,7 @@ Transform:
   m_Children:
   - {fileID: 1191403673}
   - {fileID: 925156628}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1788221791
 GameObject:
@@ -48122,8 +48080,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1790258137
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -48218,7 +48176,7 @@ Transform:
   m_Children:
   - {fileID: 1851099343}
   - {fileID: 893887268}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1796642677
 GameObject:
@@ -50596,8 +50554,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1879870660
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -50692,7 +50650,7 @@ Transform:
   m_Children:
   - {fileID: 640427842}
   - {fileID: 38433469}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1880199864
 PrefabInstance:
@@ -51113,8 +51071,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &1890202484
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -51209,7 +51167,7 @@ Transform:
   m_Children:
   - {fileID: 1222346746}
   - {fileID: 550078581}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1891318544
 PrefabInstance:
@@ -57366,8 +57324,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.85
-  engagementRange: 4.33
+  visionRange: 10.9
+  engagementRange: 4.27
 --- !u!136 &2141064617
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -57462,7 +57420,7 @@ Transform:
   m_Children:
   - {fileID: 1626388547}
   - {fileID: 386000500}
-  m_Father: {fileID: 85911395}
+  m_Father: {fileID: 1752382572}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &2141644956
 GameObject:
@@ -57684,7 +57642,6 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 775353381}
   - {fileID: 1886005742}
   - {fileID: 1752382572}
   - {fileID: 984414404}
