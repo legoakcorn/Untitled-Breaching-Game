@@ -19,7 +19,7 @@ public class PlayerInteract : MonoBehaviour
 
         if (Physics.Raycast(ray, out hitInfo, interactDistance))
         {
-            if (hitInfo.transform.CompareTag("InteractableItem") && Input.GetMouseButton(0))
+            if (hitInfo.transform.CompareTag("InteractableItem") && Input.GetKeyDown(KeyCode.R))
             {
                 // Check if the component exists before calling to avoid NullReferenceErrors
                 if (hitInfo.transform.TryGetComponent(out NewInteractables interactable))
