@@ -2873,8 +2873,8 @@ MonoBehaviour:
   attackCooldown: 1
   forwardShotForce: 20
   verticalShotForce: 1
-  visionRange: 6.1
-  engagementRange: 4.52
+  visionRange: 11.54
+  engagementRange: 5.99
 --- !u!136 &1384656712
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2963,7 +2963,7 @@ Transform:
   m_GameObject: {fileID: 1384656709}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.7071079}
-  m_LocalPosition: {x: 17.67, y: 1, z: -19.16}
+  m_LocalPosition: {x: 41.79, y: 1, z: -19.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
