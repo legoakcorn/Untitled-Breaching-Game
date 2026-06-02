@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed = 5f; //W speed son <3 <3
     [SerializeField] private float jumpForce = 4f;
     [SerializeField] private float gravity = -9.8f;
+    [SerializeField] public static float playerHealth = 3f;
 
     private CharacterController controller;
     private Vector3 playerVelocity;
@@ -46,7 +48,11 @@ public class PlayerMovement : MonoBehaviour
         {
             speed = speed / 2;
         }
-
+        if (playerHealth < 1) 
+        {
+            SceneManager.LoadScene(0);
+        
+        }
 
     }
 }
