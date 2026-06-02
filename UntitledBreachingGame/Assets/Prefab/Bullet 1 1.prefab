@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6639634583975778600
+--- !u!1001 &6422327160097855461
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ebafd8f4455a264fabbe54627ad53f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1221.6843
+      value: 416.3852
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ebafd8f4455a264fabbe54627ad53f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 39.30519
+      value: -2.21514
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ebafd8f4455a264fabbe54627ad53f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -60.20698
+      value: 456.99838
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ebafd8f4455a264fabbe54627ad53f1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -66,7 +66,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: beb95138fd9dcfd4ba3b9de85a6e3207, type: 2}
     - target: {fileID: 919132149155446097, guid: 8ebafd8f4455a264fabbe54627ad53f1, type: 3}
       propertyPath: m_Name
-      value: Bullet 1
+      value: Bullet 1 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8ebafd8f4455a264fabbe54627ad53f1, type: 3}
       propertyPath: m_IsActive
@@ -78,26 +78,26 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ebafd8f4455a264fabbe54627ad53f1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3816797187494383342}
+      addedObject: {fileID: 1145653697089513741}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ebafd8f4455a264fabbe54627ad53f1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3568405661092595952}
+      addedObject: {fileID: 3349890580606100740}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ebafd8f4455a264fabbe54627ad53f1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7525709763566101942}
+      addedObject: {fileID: 3729887350462518780}
   m_SourcePrefab: {fileID: 100100000, guid: 8ebafd8f4455a264fabbe54627ad53f1, type: 3}
---- !u!1 &5829295813063042169 stripped
+--- !u!1 &6188466333168233140 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ebafd8f4455a264fabbe54627ad53f1, type: 3}
-  m_PrefabInstance: {fileID: 6639634583975778600}
+  m_PrefabInstance: {fileID: 6422327160097855461}
   m_PrefabAsset: {fileID: 0}
---- !u!136 &3816797187494383342
+--- !u!136 &1145653697089513741
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5829295813063042169}
+  m_GameObject: {fileID: 6188466333168233140}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -114,13 +114,13 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: -2.29, z: 17.62}
---- !u!54 &3568405661092595952
+--- !u!54 &3349890580606100740
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5829295813063042169}
+  m_GameObject: {fileID: 6188466333168233140}
   serializedVersion: 5
   m_Mass: 0.3
   m_LinearDamping: 0
@@ -141,18 +141,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 2
---- !u!114 &7525709763566101942
+--- !u!114 &3729887350462518780
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5829295813063042169}
+  m_GameObject: {fileID: 6188466333168233140}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7abb2f04b3cee564ea2ef8174b5f6d43, type: 3}
+  m_Script: {fileID: 11500000, guid: a8035f889b3ee204397d95743633f576, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Bullet
-  m_Image: {fileID: 0}
-  m_Image2: {fileID: 0}
-  m_Image3: {fileID: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerBullet
