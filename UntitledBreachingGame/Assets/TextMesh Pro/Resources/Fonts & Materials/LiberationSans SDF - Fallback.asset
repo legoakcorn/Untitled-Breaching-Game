@@ -215,7 +215,6 @@ MonoBehaviour:
   m_SourceFontFilePath: 
   m_AtlasPopulationMode: 1
   InternalDynamicOS: 0
-      m_Width: 0
   m_GlyphTable: []
   m_CharacterTable: []
   m_AtlasTextures:
