@@ -35,5 +35,7 @@ public class CutsceneStartScript : MonoBehaviour
     private void Unstuck()
     {
         InputMovement.Freeze = false;
+        Spinner.rotationSpeed = 100f;
+        Spinner2.rotationSpeed = 100f;
     }
 }
